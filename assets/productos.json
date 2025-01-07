@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "nombre": "Hamburguesa Clásica",
+        "precio": 5.00,
+        "imagen": "Imagenes/hamburguesa.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Hamburguesa con Queso",
+        "precio": 6.00,
+        "imagen": "Imagenes/hamburguesa_queso.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Hamburguesa BBQ",
+        "precio": 7.00,
+        "imagen": "Imagenes/hamburguesa_bbq.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Hamburguesa Vegetariana",
+        "precio": 6.50,
+        "imagen": "Imagenes/hamburguesa_vegetariana.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Alitas de Pollo",
+        "precio": 8.00,
+        "imagen": "Imagenes/alitas_pollo.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Nuggets de Pollo",
+        "precio": 4.50,
+        "imagen": "Imagenes/nuggets_pollo.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Pollo Entero",
+        "precio": 12.00,
+        "imagen": "Imagenes/pollo_entero.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Combo Familiar de Pollo",
+        "precio": 15.00,
+        "imagen": "Imagenes/combo_familiar.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Refresco de Cola",
+        "precio": 1.50,
+        "imagen": "Imagenes/refresco_cola.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Jugo de Naranja",
+        "precio": 2.00,
+        "imagen": "Imagenes/jugo_naranja.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Agua Mineral",
+        "precio": 1.00,
+        "imagen": "Imagenes/agua_mineral.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Café",
+        "precio": 2.50,
+        "imagen": "Imagenes/cafe.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Pastel de Chocolate",
+        "precio": 3.50,
+        "imagen": "Imagenes/pastel_chocolate.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Helado de Vainilla",
+        "precio": 2.50,
+        "imagen": "Imagenes/helado_vainilla.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Tarta de Manzana",
+        "precio": 4.00,
+        "imagen": "Imagenes/tarta_manzana.jpg"
+    },
+    {
+        "id": 16,
+
+        "nombre": "Brownie",
+        "precio": 3.00,
+        "imagen": "Imagenes/brownie.jpg"
+    }
+]

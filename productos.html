@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Productos</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    
+    <section class="information-content">
+        <h2>Hamburguesas</h2>
+        <div class="producto">
+            <img src="Imagenes/hamburguesa.png" alt="Hamburguesa Clásica">
+            <h3>Hamburguesa Clásica</h3>
+            <p>Precio: $5.00</p>
+            <button onclick="agregarProducto(1, 'Hamburguesa Clásica', 5.00)">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/hamburguesa_queso.jpg" alt="Hamburguesa con Queso">
+            <h3>Hamburguesa con Queso</h3>
+            <p>Precio: $6.00</p>
+            <button onclick="agregarProducto(2, 'Hamburguesa con Queso', 6.00)">Añadir al carrito</button>
+        </div>
+        
+
+        <h2>Pollo Broster</h2>
+        <div class="producto">
+            <img src="Imagenes/alitas_pollo.jpg" alt="Alitas de Pollo">
+            <h3>Alitas de Pollo</h3>
+            <p>Precio: $8.00</p>
+            <button onclick="agregarProducto(5, 'Alitas de Pollo', 8.00)">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/nuggets_pollo.jpg" alt="Nuggets de Pollo">
+            <h3>Nuggets de Pollo</h3>
+            <p>Precio: $4.50</p>
+            <button onclick="agregarProducto(6, 'Nuggets de Pollo', 4.50)">Añadir al carrito</button>
+        </div>
+        
+
+        <h2>Bebidas</h2>
+        <div class="producto">
+            <img src="Imagenes/refresco_cola.jpg" alt="Refresco de Cola">
+            <h3>Refresco de Cola</h3>
+            <p>Precio: $1.50</p>
+            <button onclick="agregarProducto(9, 'Refresco de Cola', 1.50)">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/jugo_naranja.jpg" alt="Jugo de Naranja">
+            <h3>Jugo de Naranja</h3>
+            <p>Precio: $2.00</p>
+            <button onclick="agregarProducto(10, 'Jugo de Naranja', 2.00)">Añadir al carrito</button>
+        </div>
+        
+
+        <h2>Postres</h2>
+        <div class="producto">
+            <img src="Imagenes/pastel_chocolate.jpg" alt="Pastel de Chocolate">
+            <h3>Pastel de Chocolate</h3>
+            <p>Precio: $3.50</p>
+            <button onclick="agregarProducto(13, 'Pastel de Chocolate', 3.50)">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/helado_vainilla.jpg" alt="Helado de Vainilla">
+            <h3>Helado de Vainilla</h3>
+            <p>Precio: $2.50</p>
+            <button onclick="agregarProducto(14, 'Helado de Vainilla', 2.50)">Añadir al carrito</button>
+        </div>
+        
+    </section>
+
+    <section class="carrito container">
+        <h2>Carrito de Compras</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+        <p>Total: $<span id="total">0</span></p>
+    </section>
+    <script src="js/carrito.js">
+
+    </script>
+</body>
+</html>
