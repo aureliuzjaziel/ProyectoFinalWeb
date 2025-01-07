@@ -13,24 +13,35 @@ document.getElementById('registroForm').addEventListener('submit', function(even
     }
 
     // Validación de la contraseña
+    if (!validarPassword(password)) {
+        alert('La contraseña debe tener al menos 8 caracteres, incluyendo una letra mayúscula, una letra minúscula y un número.');
+        return;
+    }
+
+    // Verificación de que las contraseñas coinciden
     if (password !== confirmPassword) {
         alert('Las contraseñas no coinciden. Por favor, inténtalo de nuevo.');
         return;
     }
 
     alert('Registro exitoso');
-    // Aquí puedes añadir la lógica para enviar el formulario al servidor
     enviarFormulario({nombre, email, password});
 });
-
+    //Validador de email
 function validarEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
 }
 
+function validarPassword(password) {
+    // validador de contraseña con maximo 8 caracteres, letras mayusculas y numeros
+    const re = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    return re.test(password);
+}
+
 async function enviarFormulario(data) {
     try {
-        const response = await fetch('http://localhost:3000/registro', { // Asegúrate de usar la URL correcta del endpoint
+        const response = await fetch('http://localhost:3000/registro', { 
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -40,7 +51,6 @@ async function enviarFormulario(data) {
 
         const result = await response.json();
         console.log('Success:', result);
-        // Aquí puedes manejar lo que sucede después de un registro exitoso
     } catch (error) {
         console.error('Error:', error);
     }
