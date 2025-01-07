@@ -7,8 +7,34 @@
     <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 <body>
-
-    <section class="information-content">
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">La Carreta</a>
+            <input type="" id="menu"/>
+            <label for="menu">
+                <img src="Imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="#">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="#">contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1 >El mejor menu</h1>
+                <p >
+                    Lo tenemos Aqui
+                </p>
+            </div>
+        </div>
+    </header>
+    
+<section class="information-content">
+    <section class="information-b1">
         <h2>Hamburguesas</h2>
         <div class="producto">
             <img src="Imagenes/hamburguesa.png" alt="Hamburguesa Clásica">
@@ -17,58 +43,66 @@
             <button onclick="agregarProducto(1, 'Hamburguesa Clásica', 5.00)">Añadir al carrito</button>
         </div>
         <div class="producto">
-            <img src="Imagenes/hamburguesa_queso.jpg" alt="Hamburguesa con Queso">
+            <img src="Imagenes/hamburguesa de queso.png" alt="Hamburguesa con Queso">
             <h3>Hamburguesa con Queso</h3>
             <p>Precio: $6.00</p>
             <button onclick="agregarProducto(2, 'Hamburguesa con Queso', 6.00)">Añadir al carrito</button>
         </div>
+    </section>
         
-
-        <h2>Pollo Broster</h2>
+        
+        <section>
+            <h2>Pollo Broster</h2>
         <div class="producto">
-            <img src="Imagenes/alitas_pollo.jpg" alt="Alitas de Pollo">
+            <img src="Imagenes/pollo-frito.png" alt="Alitas de Pollo">
             <h3>Alitas de Pollo</h3>
             <p>Precio: $8.00</p>
             <button onclick="agregarProducto(5, 'Alitas de Pollo', 8.00)">Añadir al carrito</button>
         </div>
         <div class="producto">
-            <img src="Imagenes/nuggets_pollo.jpg" alt="Nuggets de Pollo">
+            <img src="Imagenes/nuggets-de-pollo.png" alt="Nuggets de Pollo">
             <h3>Nuggets de Pollo</h3>
             <p>Precio: $4.50</p>
             <button onclick="agregarProducto(6, 'Nuggets de Pollo', 4.50)">Añadir al carrito</button>
         </div>
+        </section>
         
-
-        <h2>Bebidas</h2>
+        
+        <section>
+            <h2>Bebidas</h2>
         <div class="producto">
-            <img src="Imagenes/refresco_cola.jpg" alt="Refresco de Cola">
+            <img src="Imagenes/vaso-de-cola.png" alt="Refresco de Cola">
             <h3>Refresco de Cola</h3>
             <p>Precio: $1.50</p>
             <button onclick="agregarProducto(9, 'Refresco de Cola', 1.50)">Añadir al carrito</button>
         </div>
         <div class="producto">
-            <img src="Imagenes/jugo_naranja.jpg" alt="Jugo de Naranja">
+            <img src="Imagenes/jugo-de-naranja.png" alt="Jugo de Naranja">
             <h3>Jugo de Naranja</h3>
             <p>Precio: $2.00</p>
             <button onclick="agregarProducto(10, 'Jugo de Naranja', 2.00)">Añadir al carrito</button>
         </div>
+        </section>
         
-
-        <h2>Postres</h2>
+        
+        <section>
+            <h2>Postres</h2>
         <div class="producto">
-            <img src="Imagenes/pastel_chocolate.jpg" alt="Pastel de Chocolate">
+            <img src="Imagenes/pastel-de-chocolate.png" alt="Pastel de Chocolate">
             <h3>Pastel de Chocolate</h3>
             <p>Precio: $3.50</p>
             <button onclick="agregarProducto(13, 'Pastel de Chocolate', 3.50)">Añadir al carrito</button>
         </div>
         <div class="producto">
-            <img src="Imagenes/helado_vainilla.jpg" alt="Helado de Vainilla">
+            <img src="Imagenes/vaso-de-papel-de-helado-de-vainilla-con-chispas-de.png" alt="Helado de Vainilla">
             <h3>Helado de Vainilla</h3>
             <p>Precio: $2.50</p>
             <button onclick="agregarProducto(14, 'Helado de Vainilla', 2.50)">Añadir al carrito</button>
         </div>
-        
+        </section>
     </section>
+        
+    
 
     <section class="carrito container">
         <h2>Carrito de Compras</h2>
