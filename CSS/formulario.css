@@ -9,7 +9,7 @@ header {
 
 main {
     padding: 20px;
-    background-color: #343a40;
+    background-color: #ffff1b39;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -35,8 +35,78 @@ button {
     border: none;
     cursor: pointer;
     transition: transform 0.2s;
+    
 }
 
 .img-thumbnail:hover {
     transform: scale(1.1);
+}
+
+.textof{
+    text-align: center;
+    font-family:'Satisfy';
+    color: #ffffff;
+    font-size: 100px;
+    margin-top: 150px;
+}
+.text2{
+    text-align: center;
+    font-family:'Satisfy';
+    font-size: 100px;
+    color: #ffffff;
+}
+.text-center{
+    text-align: center;
+    font-family:'Satisfy';
+    font-size: 40px;
+    color: #ffffff;
+}
+
+
+ /*estilos para el carrito*/
+ body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.productos-horizontales {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.producto {
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }

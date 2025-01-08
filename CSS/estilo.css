@@ -14,6 +14,8 @@ body{
 
     font-family: 'Poppins', sans-serif;
     background-color: beige;
+
+   
 }
 
 img {
@@ -31,6 +33,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     min-height: 55vh;
     padding: 20px 0 0 0;
@@ -60,6 +63,7 @@ justify-content: space-between;
 .menu .navbar ul li{
     position: relative;
     float: left;
+   
 }
 
 .menu .navbar ul li a{
@@ -88,6 +92,7 @@ justify-content: space-between;
     cursor: pointer;
     display: none;
 }
+
 
 .header-txt{
     text-align: center;
@@ -170,10 +175,11 @@ h3{
 }
 
 .our h2{
-    font-size: 35px;
+    
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-family: 'Satisfy', cursive;
+   
   
 
 }
@@ -182,7 +188,7 @@ h3{
     
     display: flex;
     box-shadow: 0 0 20px rgba(0,0, 0,0.2);
-    margin-top: -50px;
+ 
     background-color: #ffffff;
     
    
@@ -224,7 +230,7 @@ h3{
     color: rgb(233, 177, 24);
     text-transform: uppercase;
     text-align: center;
-    margin-top: 45px;
+    margin-top:85px;
 }
 .btn-2b{
     display: inline-block;
@@ -232,7 +238,7 @@ h3{
     color: rgb(233, 177, 24);
     text-transform: uppercase;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 85px;
 }
 
 
@@ -263,69 +269,4 @@ h3{
     color: rgb(250, 186, 10);
  }
 
- /*estilos para el carrito*/
- body {
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.productos-horizontales {
-    display: flex;
-    overflow-x: auto;
-    gap: 20px;
-    padding: 20px 0;
-}
-
-.producto {
-    flex: 0 0 auto;
-    width: 200px;
-    text-align: center;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-.producto img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-.carrito {
-    margin-top: 20px;
-}
-
-.carrito table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.carrito th, .carrito td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-.carrito th {
-    background-color: #f2f2f2;
-}
 
