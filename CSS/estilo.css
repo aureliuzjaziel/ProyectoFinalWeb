@@ -182,7 +182,12 @@ h3{
 }
 
 .ofert-1{
-    flex-basis: 25%;
+    flex-basis: 50%;
+    margin-inline: 1px;
+    border-top: azure;
+    margin-block: 50px;
+    margin-top: 2px;
+
 }
 
 .ofert-txt {
@@ -192,6 +197,8 @@ h3{
 }
 .ofert-img{
     height: 230px;
+    
+    
 }
 .ofert-img img {
     height: 230px;
@@ -210,7 +217,7 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    height: 200px;
+    height: 80px;
 }
 
 .footer{
