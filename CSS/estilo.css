@@ -14,6 +14,8 @@ body{
 
     font-family: 'Poppins', sans-serif;
     background-color: beige;
+
+   
 }
 
 img {
@@ -31,9 +33,10 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    min-height: 70vh;
-    padding: 50px 0 0 0;
+    min-height: 55vh;
+    padding: 20px 0 0 0;
 
 }
 
@@ -60,6 +63,7 @@ justify-content: space-between;
 .menu .navbar ul li{
     position: relative;
     float: left;
+   
 }
 
 .menu .navbar ul li a{
@@ -89,6 +93,7 @@ justify-content: space-between;
     display: none;
 }
 
+
 .header-txt{
     text-align: center;
 }
@@ -101,12 +106,8 @@ justify-content: space-between;
 
 }
 
-.header-txt p{
-    font-size: 35px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-weight: 600;
-}
+
+
 
 .information-content{
     display: flex;
@@ -118,7 +119,9 @@ margin-top: -50px;
 .information-1{
     flex-basis: 30%;
 }
-
+.texto1{
+    color: #ffffff;
+}
 .information-c1{
     padding: 45px;
     text-align: center;
@@ -160,67 +163,100 @@ h3{
     text-transform: uppercase;
 }
 .our{
-    margin-top: -50px;
-    padding: 100px 0;
-    background-color: rgb(255, 215, 163);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+   text-align: center;
+   background-color: rgb(255, 139, 7);
+   margin-block: 50px;
+   background-position: center center;
+   display: flex;
+   box-shadow: 0 0 20px rgba(0,0, 0,0.2);
+ 
+   
+    
 }
 
 .our h2{
-    font-size: 35px;
-    color: antiquewhite;
-    text-transform: uppercase;
+    
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+   
+  
+
 }
 
 .ofert-content{
+    
     display: flex;
     box-shadow: 0 0 20px rgba(0,0, 0,0.2);
-    margin-top: -50px;
+ 
+    background-color: #ffffff;
+    justify-content: flex-end; 
+  align-items: flex-end; 
+  
+    
+   
 }
-
+.fondo{
+    background-color: #ffedd4;
+}
 .ofert-1{
-    flex-basis: 25%;
+    flex-basis: 50%;
+   margin-inline: 5px;
+    
 }
 
 .ofert-txt {
     padding: 37px;
     text-align: center;
-    background-color: antiquewhite;
+   
 }
 .ofert-img{
     height: 230px;
+    margin-bottom: 50px;
+    
+    
 }
-.ofert-img img {
+.ajustar{
     height: 230px;
+    transition: 2s;
+    
 }
-
 .btn-2{
     display: inline-block;
     margin-top: 10px;
     color: rgb(233, 177, 24);
     text-transform: uppercase;
-}
-.bg{
-    margin-top: -50px;
-    background-color: rgb(255, 215, 163);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
-    height: 200px;
+   
+}
+.btn-2a{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(233, 177, 24);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:85px;
+}
+.btn-2b{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(233, 177, 24);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
 }
 
+
 .footer{
-    padding: 50px 0;
+    padding: 30px 0;
     background-color: black;
+    margin-top: 70px;
 }
 
 .footer-content{
     display: flex;
     justify-content: space-between;
+    
 }
 .link ul{
     display: flex;
@@ -228,79 +264,16 @@ h3{
 }
 .link ul li {
     margin-right: 25px;
+    margin-top: 12px;
 }
 .link a{
     font-size: 18px;
     text-transform: uppercase;
     color: aliceblue;
+    
 }
  .link a:hover {
     color: rgb(250, 186, 10);
  }
 
- /*estilos para el carrito*/
- body {
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.productos-horizontales {
-    display: flex;
-    overflow-x: auto;
-    gap: 20px;
-    padding: 20px 0;
-}
-
-.producto {
-    flex: 0 0 auto;
-    width: 200px;
-    text-align: center;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-.producto img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-.carrito {
-    margin-top: 20px;
-}
-
-.carrito table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.carrito th, .carrito td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-.carrito th {
-    background-color: #f2f2f2;
-}
 
