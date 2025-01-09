@@ -131,7 +131,5 @@
     window.onload = function () {
         getJSON();
     };
-    document.getElementById('btnInicio').addEventListener('click', function() {
-        window.location.href = 'productos.html'; // Reemplaza 'index.html' con la URL de tu página de inicio
-    });
+    
     
