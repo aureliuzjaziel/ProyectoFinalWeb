@@ -190,6 +190,9 @@ h3{
     box-shadow: 0 0 20px rgba(0,0, 0,0.2);
  
     background-color: #ffffff;
+    justify-content: flex-end; 
+  align-items: flex-end; 
+  
     
    
 }
@@ -211,10 +214,12 @@ h3{
     height: 230px;
     margin-bottom: 50px;
     
-    background-color: #0056b3;
+    
 }
 .ajustar{
     height: 230px;
+    transition: 2s;
+    
 }
 .btn-2{
     display: inline-block;
@@ -238,14 +243,14 @@ h3{
     color: rgb(233, 177, 24);
     text-transform: uppercase;
     text-align: center;
-    margin-top: 85px;
+    margin-top: 100px;
 }
 
 
 .footer{
-    padding: 50px 0;
+    padding: 30px 0;
     background-color: black;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .footer-content{
@@ -259,11 +264,13 @@ h3{
 }
 .link ul li {
     margin-right: 25px;
+    margin-top: 12px;
 }
 .link a{
     font-size: 18px;
     text-transform: uppercase;
     color: aliceblue;
+    
 }
  .link a:hover {
     color: rgb(250, 186, 10);
